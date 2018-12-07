@@ -10,6 +10,7 @@ const Cards = ({ cards, remove }) => (
                 <Table.HeaderCell>Options</Table.HeaderCell>
             </Table.Row>
         </Table.Header>
+        
         <Table.Body>
             {
                 cards.map( card => (
